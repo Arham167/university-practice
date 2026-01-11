@@ -18,7 +18,7 @@ public class percent {
         System.out.print("Please enter your obtained marks: ");
         obt = input.nextDouble();
 
-        while (obt <= 0 || obt > max)
+        while (obt < 0 || obt > max)
         {
             System.out.print("Please enter valid obtained marks (positive and less than total marks): ");
             obt = input.nextDouble();
@@ -28,5 +28,7 @@ public class percent {
         System.out.print("Your percentage is: ");
         System.out.print(per);
         System.out.print("%");
+
+        input.close();
     }
 }
