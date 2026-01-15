@@ -8,29 +8,59 @@ public class triangleCalc {
         double a, b, c, sp, s, area;
 
         System.out.print("Enter value of first side of triangle: ");
+        while (input.hasNextDouble() == false)
+        {
+            System.out.print("Please enter a number: ");
+            input.next();
+        }
         a = input.nextDouble();
 
         while (a <= 0)
         {
             System.out.print("Please enter valid value: ");
+            while (input.hasNextDouble() == false)
+            {
+                System.out.print("Please enter a number: ");
+                input.next();
+            }
             a = input.nextDouble();         
         }
 
         System.out.print("Enter value of second side of triangle: ");
+        while (input.hasNextDouble() == false)
+        {
+            System.out.print("Please enter a number: ");
+            input.next();
+        }
         b = input.nextDouble();
 
         while (b <= 0)
         {
             System.out.print("Please enter valid value: ");
+            while (input.hasNextDouble() == false)
+            {
+                System.out.print("Please enter a number: ");
+                input.next();
+            }
             b = input.nextDouble();         
         }
 
         System.out.print("Enter value of third side of triangle: ");
+        while (input.hasNextDouble() == false)
+        {
+            System.out.print("Please enter a number: ");
+            input.next();
+        }
         c = input.nextDouble();
 
         while (c <= 0)
         {
             System.out.print("Please enter valid value: ");
+            while (input.hasNextDouble() == false)
+            {
+                System.out.print("Please enter a number: ");
+                input.next();
+            }
             c = input.nextDouble();         
         }
 
@@ -45,7 +75,7 @@ public class triangleCalc {
 
         else
         {
-            System.out.print("Length of one side must be less than the sum of the lengths of the other two sides.");
+            System.out.print("Such triangle does not exist. Length of one side must be less than the sum of the lengths of the other two sides.");
         }
 
         input.close();
