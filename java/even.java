@@ -22,16 +22,22 @@ public class even {
         }
         b = input.nextInt();
 
-        while (a <= b)
+        if (a % 2 == 0)
         {
-            if (a % 2 == 0)
+            while (a <= b)
             {
                 System.out.println(a);
                 a = a + 2;
             }
-            else
+        }
+
+        else
+        {
+            a = a + 1;
+            while (a <= b)
             {
-                a = a + 1;
+                System.out.println(a);
+                a = a + 2;
             }
         }
 
