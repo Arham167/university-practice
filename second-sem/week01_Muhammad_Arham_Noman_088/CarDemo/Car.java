@@ -26,6 +26,7 @@ public class Car {
 
     public void startEngine()
     {
+        /* check if car has fuel, otherwise can't start engine */
         if (this.fuel == 0)
         {
             System.out.println("Refuel your car");
@@ -38,21 +39,24 @@ public class Car {
         }
     }
 
-    public void accelerate(int new_speed)
+    public void accelerate(int speed_increase)
     {
+        /* check if engine is turned on, otherwise can't accelerate */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
-        if (new_speed < this.speed || new_speed < 0)
+        /* check if desired speed is less than current speed or less than 0 */
+        if (speed_increase < this.speed || speed_increase < 0)
         {
             System.out.println("Can't accelerate with a speed lesser than the current speed");
         }
 
         else
         {            
-            this.speed = this.speed + new_speed;
+            this.speed = this.speed + speed_increase;
             this.fuel = this.fuel - 10;
             System.out.println(this.brand + " accelerated to " + this.speed);
         }
@@ -60,9 +64,11 @@ public class Car {
 
     public void reverse()
     {
+        /* check if engine is turned on, otherwise can't reverse */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         else
@@ -75,9 +81,11 @@ public class Car {
 
     public void gearUpshift(int new_gear)
     {
+        /* check if engine is turned on, otherwise can't change gear */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         if (new_gear < gear || new_gear < 0 || new_gear > 6)
@@ -95,9 +103,11 @@ public class Car {
 
     public void gearDownshift(int new_gear)
     {
+        /* check if engine is turned on, otherwise can't change gear */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         if (new_gear > gear || new_gear < 0)
@@ -108,16 +118,18 @@ public class Car {
         else
         {
             this.gear = new_gear;
-            this.speed = this.speed + 10;
+            this.speed = this.speed - 10;
             System.out.println(this.brand + " gear downshifted to " + this.gear);
         }
     }
 
     public void drive()
     {
+        /* check if engine is turned on, otherwise can't drive */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         if (this.speed == 0)
@@ -134,9 +146,11 @@ public class Car {
 
     public void stopEngine()
     {        
+        /* check if engine is turned on, otherwise can't stop */
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         this.speed = 0;
@@ -149,6 +163,7 @@ public class Car {
         if (this.engineOn == false)
         {
             System.out.println("Please turn on the engine first");
+            return;
         }
 
         else
