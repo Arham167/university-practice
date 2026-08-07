@@ -16,13 +16,13 @@ public class Car {
         this.gear = 0;
     }
 
-    public setDetails(String brand, String color)
+    public void setDetails(String brand, String color)
     {
         this.brand = brand;
         this.color = color;
     }
 
-    public display()
+    public void display()
     {
         System.out.println("The brand of car is: " + this.brand);
         System.out.println("The color of car is: " + this.color);
