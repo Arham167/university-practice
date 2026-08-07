@@ -1,0 +1,93 @@
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 0
+The angle of car is: 0.0
+The engine is: false
+The fuel of car is: 100.0
+The gear of car is: 0
+=================================
+The brand of car is: tesla
+The color of car is: red
+The speed of car is: 0
+The angle of car is: 0.0
+The engine is: false
+The fuel of car is: 100.0
+The gear of car is: 0
+=================================
+bmw engine started
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 0
+The angle of car is: 0.0
+The engine is: true
+The fuel of car is: 100.0
+The gear of car is: 0
+=================================
+bmw accelerated to 10
+bmw accelerated to 60
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 60
+The angle of car is: 0.0
+The engine is: true
+The fuel of car is: 80.0
+The gear of car is: 0
+=================================
+Vroom vroom! bmw is moving with a speed of 60 and an angle of 0.0
+Invalid upshift. Current gear is 0
+bmw gear upshifted to 5
+Invalid upshift. Current gear is 5
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 70
+The angle of car is: 0.0
+The engine is: true
+The fuel of car is: 70.0
+The gear of car is: 5
+=================================
+Invalid downshift. Current gear is 5
+Invalid downshift. Current gear is 5
+bmw gear downshifted to 4
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 80
+The angle of car is: 0.0
+The engine is: true
+The fuel of car is: 70.0
+The gear of car is: 4
+=================================
+bmw reversing...
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 80
+The angle of car is: -180.0
+The engine is: true
+The fuel of car is: 60.0
+The gear of car is: 4
+=================================
+bmwTurbo Mode Activated!!!
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 200
+The angle of car is: -180.0
+The engine is: true
+The fuel of car is: 10.0
+The gear of car is: 4
+=================================
+bmw engine stopped
+The brand of car is: bmw
+The color of car is: blue
+The speed of car is: 0
+The angle of car is: -180.0
+The engine is: false
+The fuel of car is: 10.0
+The gear of car is: 4
+=================================
+The brand of car is: tesla
+The color of car is: red
+The speed of car is: 0
+The angle of car is: 0.0
+The engine is: false
+The fuel of car is: 100.0
+The gear of car is: 0
+=================================

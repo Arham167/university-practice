@@ -1,0 +1,13 @@
+Enter first number: 45
+Enter next number (enter x to stop adding numbers): 32
+Enter next number (enter x to stop adding numbers): 12
+Enter next number (enter x to stop adding numbers): 0
+Enter next number (enter x to stop adding numbers): x
+The addition of given numbers is 89.0
+The subtraction of given numbers is 1.0
+The multiplication of given numbers is 0.0
+Cannot divide by zero!
+The maximum of given numbers is 45.0
+The minimum of given numbers is 0.0
+The average of given numbers is 22.25
+PS D:\Desktop\Coding\university-practice\second-sem\week01_Muhammad_Arham_Noman_088\CalculatorDemo> 
