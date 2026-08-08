@@ -35,5 +35,9 @@ public class Main {
 
         System.out.println(t1);
         System.out.println(t2);
+
+        Rational r1 = new Rational(10, 15);
+        r1.display();
+        System.out.println(r1);
     }
 }
